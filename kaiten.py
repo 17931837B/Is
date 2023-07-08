@@ -2,7 +2,7 @@ import time
 import serial   #https://www.cooptec.jp/archives/1511
 
 # シリアル通信の設定
-ser = serial.Serial('/dev/ttyACM0', 9600)  # ポート名に応じて変更
+ser = serial.Serial('COM3', 9600)  # ポート名に応じて変更
 
 ser.flushInput()
 ser.flushOutput()
